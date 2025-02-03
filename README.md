@@ -2,7 +2,10 @@
 
 ### A:
 
-The inheritance used in this exercise is Specialization. The reason is that the LoginScreen class extends the CommandLineApp and inherits the ask method, which allows it to prompt the user for input. Instead of changing the existing functionality, LoginScreen adds a new method called lock, which handles user login. This makes LoginScreen a specific version of CommandLineApp, which follows the is-a relationship in inheritance.
+The inheritance used in this exercise is Specialization. The reason is that the LoginScreen class extends the CommandLineApp and inherits the ask method, which allows it to prompt the user for input. Instead of changing the existing functionality, LoginScreen adds a new method called lock, which handles user login. This is a typical example of specialization where a subclass adds specific behaviors on top of the more general features provided by its superclass.
+
+
+
 
 ### B: 
 
